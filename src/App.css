@@ -1,0 +1,279 @@
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url("/fonts/Poppins/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url("/fonts/Poppins/Poppins-Regular.ttf");
+}
+
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url("/fonts/Poppins/Poppins-Medium.ttf");
+}
+
+@font-face {
+  font-family: Inter-Bold;
+  src: url("/fonts/Inter/Inter-Bold.ttf");
+}
+
+@font-face {
+  font-family: Inter-Regular;
+  src: url("/fonts/Inter/Inter-Regular.ttf");
+}
+
+
+body {
+  background: #E4F3E8;
+  padding: 0;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+
+.header__logo {
+  display: flex;
+  gap: 18px;
+  padding: 50px 100px;
+}
+
+.header__buttons {
+  display: flex;
+  gap: 18px;
+  font-family: Poppins-SemiBold;
+  padding: 50px 100px;
+}
+
+
+.header__register {
+  color: white;
+  background: #3BC294;
+  height: 50px;
+  width: 140px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 50px;
+}
+
+
+.header__sign-in {
+  color: black;
+  background: white;
+  height: 50px;
+  width: 140px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 50px;
+  border: 3px solid #10B580;
+}
+
+.header__logo-text {
+  line-height: 25px;
+  width: 50px;
+  display: grid;
+  font-family: Poppins-SemiBold;
+  color: #10B580;
+}
+
+.header__logo-icon {
+  display: grid;
+  align-content: center;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+
+.intro__text-container {
+  display: grid;
+  padding-left: 100px;
+  align-content: center;
+  gap: 20px;
+}
+
+.intro__img {
+  padding-right: 100px;
+}
+
+.intro__title {
+  font-family: Inter-Bold;
+  font-size: 48px;
+  color: #2A4055;
+}
+
+.intro__text {
+  font-family: Poppins-Regular;
+  font-size: 16px;
+}
+
+.actions {
+  background: #10B580;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.actions__containers {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding: 100px;
+}
+
+.actions__container {
+  background: white;
+  border-radius: 20px;
+  padding: 50px;
+}
+
+.actions__content {
+  display: grid;
+  gap: 16px;
+  justify-items: center;
+}
+
+.actions__title {
+  font-family: Inter-Bold;
+  font-size: 24px;
+  color: #2A4055;
+}
+
+.actions__text {
+  font-family: Poppins-Regular;
+  font-size: 16px;
+}
+
+.recycle__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px;
+}
+
+.recycle__text {
+  display: flex;
+  font-family: Poppins-Regular;
+  font-size: 16px;
+}
+
+.recycle__title {
+  font-family: Inter-Bold;
+  font-size: 40px;
+  color: #2A4055;
+}
+
+.recycle__text-container {
+  align-content: center;
+  gap: 30px;
+  display: grid;
+  padding-bottom: 40px;
+}
+
+.facts__container {
+  display: grid;
+  justify-content: center;
+}
+
+.facts {
+  padding-bottom: 100px;
+}
+
+.facts__heading {
+  font-family: Inter-Regular;
+  font-size: 32px;
+}
+
+.facts__title {
+  font-family: Inter-Bold;
+  font-size: 40px;
+  color: #2A4055;
+}
+
+.facts__dropdown-menu{
+  background: #3AC195;
+  border-radius: 20px;
+  width: 900px;
+  padding: 50px;
+}
+
+.facts__dropdown-content {
+  display: grid;
+  gap: 18px;
+}
+
+.facts__dropdown-title {
+  font-family: Poppins-Medium;
+  font-size: 18px;
+  color: white;
+}
+
+.facts__dropdown-text {
+  font-family: Poppins-Regular;
+  font-size: 14px;
+  color: white;
+}
+
+.facts__dropdowns {
+  display: grid;
+  gap: 20px;
+}
+
+.facts__text-container {
+  display: grid;
+  padding-bottom: 40px;
+  justify-content: center;
+  justify-items: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+}
+
+.footer__logo {
+  display: flex;
+  gap: 18px;
+  padding: 50px 100px;
+}
+
+.footer__logo-icon {
+  display: grid;
+  align-content: center;
+}
+
+.footer__logo-text {
+  line-height: 25px;
+  width: 50px;
+  display: grid;
+  font-family: Poppins-SemiBold;
+  color: #10B580;
+}
+
+.footer__terms {
+  padding-left: 100px;
+}
+
+.footer__second-column {
+  padding: 50px;
+}
+
+.footer__links {
+  display: grid;
+  gap: 10px;
+}
+
+.footer__socials {
+  display: flex;
+  padding: 50px 100px;
+  gap: 10px;
+  align-items: center;
+}
