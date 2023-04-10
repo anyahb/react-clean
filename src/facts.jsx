@@ -26,8 +26,7 @@ const Facts = () => {
 
                         <div className='facts__dropdown-menu'>
                             <details className='facts__dropdown-content'>
-                                <summary className='facts__dropdown-title'>Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit.
+                                <summary className='facts__dropdown-title'>Lorem ipsum dolor sit amet.
                                 </summary>
                                 <div className='facts__dropdown-text'>Lorem ipsum dolor sit amet, consectetur adipiscing
                                     elit. Risus ornare in eget mauris. Porttitor semper sed nisi ac adipiscing vitae.
@@ -39,8 +38,7 @@ const Facts = () => {
 
                         <div className='facts__dropdown-menu'>
                             <details className='facts__dropdown-content'>
-                                <summary className='facts__dropdown-title'>Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit.
+                                <summary className='facts__dropdown-title'>Lorem ipsum dolor sit amet.
                                 </summary>
                                 <div className='facts__dropdown-text'>Lorem ipsum dolor sit amet, consectetur adipiscing
                                     elit. Risus ornare in eget mauris. Porttitor semper sed nisi ac adipiscing vitae.

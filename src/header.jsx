@@ -1,6 +1,8 @@
 import logo from "./header__logo-icon.png";
 
+
 const Header = () => {
+
 return (
     <div className="header">
         <div className="header__logo">
@@ -8,6 +10,10 @@ return (
                 <img className="header__logo-png" src={logo}/>
             </div>
             <div className="header__logo-text">Live Clean</div>
+        </div>
+
+        <div className="header__burger">
+            <span className="header__burger-line header__burger-line_center"></span>
         </div>
 
         <div className="header__buttons">
