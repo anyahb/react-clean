@@ -12,32 +12,46 @@ const Facts = () => {
                     <div className='facts__dropdowns'>
 
 
-                    <div className='facts__dropdown-menu'>
-                        <div className='facts__dropdown-content'>
-                        <div className='facts__dropdown-title'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-                        <div className='facts__dropdown-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus ornare in eget mauris. Porttitor semper sed nisi ac adipiscing vitae. Lobortis imperdiet ornare eleifend nisl ut auctor. Ornare etiam neque elementum mattis ultrices.Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+                        <div className='facts__dropdown-menu'>
+                            <details className='facts__dropdown-content'>
+                                <summary className='facts__dropdown-title'>Lorem ipsum dolor sit amet.</summary>
+                                <div className='facts__dropdown-text'>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus ornare in eget
+                                        mauris. Porttitor semper sed nisi ac adipiscing vitae. Lobortis imperdiet ornare
+                                        eleifend nisl ut auctor. Ornare etiam neque elementum mattis ultrices.Lorem
+                                        ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                                </div>
+                            </details>
                         </div>
-                    </div>
 
-
-                    <div className='facts__dropdown-menu'>
-                        <div className='facts__dropdown-content'>
-                            <div className='facts__dropdown-title'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-                            <div className='facts__dropdown-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus ornare in eget mauris. Porttitor semper sed nisi ac adipiscing vitae. Lobortis imperdiet ornare eleifend nisl ut auctor. Ornare etiam neque elementum mattis ultrices.Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+                        <div className='facts__dropdown-menu'>
+                            <details className='facts__dropdown-content'>
+                                <summary className='facts__dropdown-title'>Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit.
+                                </summary>
+                                <div className='facts__dropdown-text'>Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit. Risus ornare in eget mauris. Porttitor semper sed nisi ac adipiscing vitae.
+                                    Lobortis imperdiet ornare eleifend nisl ut auctor. Ornare etiam neque elementum
+                                    mattis ultrices.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </div>
+                            </details>
                         </div>
-                    </div>
 
-
-                    <div className='facts__dropdown-menu'>
-                        <div className='facts__dropdown-content'>
-                            <div className='facts__dropdown-title'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-                            <div className='facts__dropdown-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus ornare in eget mauris. Porttitor semper sed nisi ac adipiscing vitae. Lobortis imperdiet ornare eleifend nisl ut auctor. Ornare etiam neque elementum mattis ultrices.Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+                        <div className='facts__dropdown-menu'>
+                            <details className='facts__dropdown-content'>
+                                <summary className='facts__dropdown-title'>Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit.
+                                </summary>
+                                <div className='facts__dropdown-text'>Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit. Risus ornare in eget mauris. Porttitor semper sed nisi ac adipiscing vitae.
+                                    Lobortis imperdiet ornare eleifend nisl ut auctor. Ornare etiam neque elementum
+                                    mattis ultrices.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </div>
+                            </details>
                         </div>
+
+
                     </div>
-
-                    </div>
-
-
 
 
                 </div>
