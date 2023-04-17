@@ -1,4 +1,4 @@
-import girl from "./intro__pic.png";
+import girl from "../assets/img/intro__pic.png";
 
 const Intro = () => {
     return (

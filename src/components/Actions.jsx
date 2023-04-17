@@ -1,6 +1,6 @@
-import firstActionPic from "./actions__pic-1.png";
-import secondActionPic from "./actions__pic-2.png";
-import thirdActionPic from "./actions__pic-3.png";
+import firstActionPic from "../assets/img/actions__pic-1.png";
+import secondActionPic from "../assets/img/actions__pic-2.png";
+import thirdActionPic from "../assets/img/actions__pic-3.png";
 
 const actions = () => {
 

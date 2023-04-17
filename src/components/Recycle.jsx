@@ -1,4 +1,4 @@
-import recyclePic from './recycle__pic.png';
+import recyclePic from '../assets/img/recycle__pic.png';
 
 const Recycle = () => {
     return (

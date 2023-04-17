@@ -1,7 +1,8 @@
-import logo from "./header__logo-icon.png";
+import logo from "../assets/img/header__logo-icon.png";
 
 
 const Header = () => {
+
 
 return (
     <div className="header">
@@ -19,6 +20,11 @@ return (
         <div className="header__buttons">
             <div className="header__register">Register</div>
             <div className="header__sign-in">Sign-in</div>
+            <div className="header__links">
+                <div className="header__link">Block</div>
+                <div className="header__link">Send Feedback</div>
+                <div className="header__link">About</div>
+            </div>
         </div>
     </div>
 )

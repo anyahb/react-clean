@@ -1,7 +1,7 @@
-import logo from "./header__logo-icon.png";
-import twitter from './footer__twitter.png';
-import instagram from './footer__insta.png';
-import facebook from './footer__facebook.png';
+import logo from "../assets/img/header__logo-icon.png";
+import twitter from '../assets/img/footer__twitter.png';
+import instagram from '../assets/img/footer__insta.png';
+import facebook from '../assets/img/footer__facebook.png';
 
 
 const Footer = () => {

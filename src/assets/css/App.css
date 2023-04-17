@@ -51,6 +51,13 @@ body {
     padding: 50px 100px;
 }
 
+.header__links {
+    display: none;
+    gap: 40px;
+    color: white;
+    padding-left: 40px;
+}
+
 .header__register {
     color: white;
     background: #3BC294;
@@ -328,7 +335,7 @@ details > summary:first-of-type {
 
 
 details > summary::after {
-    content: url("./facts__arrow.png");
+    content: url("../img/facts__arrow.png");
     display: inline-flex;
     width: 1.5rem;
     height: 1.5rem;
@@ -378,11 +385,13 @@ details[open] > summary::after {
 .header__burger.active:before {
     transform: rotate(45deg);
     top: 9px;
+    background: white;
 }
 
 .header__burger.active:after {
     transform: rotate(-45deg);
     bottom: 9px;
+    background: white;
 }
 
 
@@ -540,9 +549,19 @@ details[open] > summary::after {
         width: 100%;
     }
 
+    .actions {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
 }
 
 @media (max-width: 480px) {
+
+    body.lock {
+        overflow: hidden;
+    }
+
     .intro {
         padding: 50px 20px 50px 20px;
     }
@@ -575,8 +594,56 @@ details[open] > summary::after {
         justify-content: center;
     }
 
+    /*.header__buttons {*/
+    /*    display: none;*/
+    /*}*/
+
+
+
     .header__buttons {
-        display: none;
+        position: fixed;
+        right: -100%;
+        width: 80%;
+        height: 90%;
+        background-color: #34AB84;
+        transition: all 0.3s ease 0s;
+        overflow: hidden;
+    }
+
+    .header__buttons.active {
+        right: 0;
+        padding: 0 10px 10px 10px;
+        display: grid;
+        align-content: end;
+    }
+
+    .header__register {
+        background: unset;
+        color: white;
+        height: 50px;
+         width: unset;
+        border:unset;
+         text-align: unset;
+         line-height: unset;
+        cursor: pointer;
+        padding-left: 40px;
+
+    }
+
+    .header__sign-in {
+        background: unset;
+        color: white;
+        height: 50px;
+        width: unset;
+        border: unset;
+        text-align: unset;
+        line-height: unset;
+        cursor: pointer;
+        padding-left: 40px;
+    }
+
+    .header__links {
+        display: grid;
     }
 
     .header__burger {
